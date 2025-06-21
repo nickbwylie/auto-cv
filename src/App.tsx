@@ -1,5 +1,11 @@
+import MapView from './MapView'
+
 function App() {
-  return <div className="min-h-screen bg-gray-50"></div>;
+  return (
+    <div className="min-h-screen">
+      <MapView />
+    </div>
+  )
 }
 
-export default App;
+export default App
